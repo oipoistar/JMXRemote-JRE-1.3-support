@@ -1,0 +1,26 @@
+JMXRemote support for JDK 1.3/JRE 1.3
+-------------------------------------
+
+This is a fork of the JMXRemote project that you can find at:
+https://jmxremote.dev.java.net/
+
+There you can also find additional information regarding this project.
+
+
+For building this version you will need:
+
+- UUID
+	http://johannburkard.de/software/uuid/
+	Download the UUID 2.1.5 version for Java 4 or smaller.
+	
+- backport-util-concurrent
+	http://backport-jsr166.sourceforge.net/
+	Download the 3.1 version for Java 1.2
+
+- Sun JMX RI 
+	As JMX comes only since Java 1.5 you have to download the RI from
+	http://java.sun.com/javase/technologies/core/mntr-mgmt/javamanagement/download.jsp
+	
+This library can be useful when you are working on Java ME project and wish to use 
+JMX with the JMXRemote library.
+
